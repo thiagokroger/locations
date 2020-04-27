@@ -1,5 +1,5 @@
 const { app } = require('./src/app')
-
-app.listen(4000, () => {
-  console.log('Running a GraphQL API server at http://localhost:4000/graphql')
+const { SERVER_PORT = 4000 } = process.env
+app.listen(SERVER_PORT, () => {
+  console.log(`Running a GraphQL API server at port ${SERVER_PORT}`)
 })

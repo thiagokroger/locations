@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Weather Card with all props should render without crashing 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row align-right"
+  >
+    <span
+      className="clickable"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-times"
+      />
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <span
+      key="0"
+    >
+      Clime test
+    </span>
+    <span>
+      City test
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <span
+      className="temperature"
+    >
+      25
+      °C
+    </span>
+    <span />
+  </div>
+</div>
+`;
+
+exports[`Components - Weather Card with all props should trigger removeSearchValue correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row align-right"
+  >
+    <span
+      className="clickable"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-times"
+      />
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <span
+      key="0"
+    >
+      Clime test
+    </span>
+    <span>
+      City test
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <span
+      className="temperature"
+    >
+      25
+      °C
+    </span>
+    <span />
+  </div>
+</div>
+`;
+
+exports[`Components - Weather Card without not required props should render without crashing 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="row align-right"
+  >
+    <span
+      className="clickable"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-times"
+      />
+    </span>
+  </div>
+  <div
+    className="row"
+  >
+    <span />
+  </div>
+  <div
+    className="row"
+  >
+    <span
+      className="temperature"
+    >
+      0
+      °C
+    </span>
+    <span />
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Page - App should render without crashing 1`] = `
+<div
+  className="App columns"
+>
+  <div
+    className="column is-one-quarter"
+  >
+    <span
+      className="column-title"
+    >
+      Last searched places
+    </span>
+  </div>
+  <div
+    className="column"
+  >
+    <div
+      className="field has-addons has-addons-centered"
+    >
+      <div
+        className="control has-icons-left"
+      >
+        <input
+          className="input is-rounded"
+          disabled={false}
+          name="search"
+          onChange={[Function]}
+          placeholder="Zip code"
+          type="text"
+          value=""
+        />
+        <span
+          className="icon is-left"
+        >
+          <i
+            className="fas fa-globe"
+          />
+        </span>
+      </div>
+      <div
+        className="control"
+      >
+        <button
+          className="button is-info "
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;

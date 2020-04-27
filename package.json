@@ -5,7 +5,8 @@
   "scripts": {
     "install": "lerna exec npm install",
     "lint": "lerna exec npm run lint:fix",
-    "test": "lerna exec npm run test"
+    "test": "lerna exec npm run test",
+    "start": "lerna exec npm run start"
   },
   "repository": {
     "type": "git",

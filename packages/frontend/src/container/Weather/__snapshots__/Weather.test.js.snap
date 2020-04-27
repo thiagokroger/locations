@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Containers - Weather with placeWeather, weatherDescriptions and forecast should render without crashing 1`] = `
+<div>
+  <div
+    className="container weather-container"
+  >
+    <div
+      className="weather-header"
+    >
+      <div
+        className="column-title"
+      >
+        City Test
+      </div>
+      <span
+        className="weather-description"
+        key="0"
+      >
+        Test Description
+      </span>
+      <div
+        className="temperature-span"
+      >
+        °C
+      </div>
+    </div>
+    <div
+      className="weather-forecast columns is-multiline is-centered"
+    >
+      <div
+        className="column is-narrow"
+        key="0"
+      >
+        <div
+          className="weather-description"
+        >
+          Monday, January 19
+        </div>
+        <div
+          className="forecast-row"
+        >
+          <div
+            className="forecast-label"
+          >
+            Sunrise
+          </div>
+          <div
+            className="forecast-value"
+          >
+            06:10 AM
+          </div>
+        </div>
+        <div
+          className="forecast-row"
+        >
+          <div
+            className="forecast-label"
+          >
+            Sunset
+          </div>
+          <div
+            className="forecast-value"
+          >
+            06:10 PM
+          </div>
+        </div>
+        <div
+          className="forecast-row"
+        >
+          <div
+            className="forecast-label"
+          >
+            Moonphase
+          </div>
+          <div
+            className="forecast-value"
+          />
+        </div>
+        <div
+          className="forecast-row"
+        >
+          <div
+            className="forecast-label"
+          >
+            Min temp
+          </div>
+          <div
+            className="forecast-value"
+          >
+            10
+            °C
+          </div>
+        </div>
+        <div
+          className="forecast-row"
+        >
+          <div
+            className="forecast-label"
+          >
+            Max temp
+          </div>
+          <div
+            className="forecast-value"
+          >
+            20
+            °C
+          </div>
+        </div>
+        <div
+          className="forecast-row"
+        >
+          <div
+            className="forecast-label"
+          >
+            Avg temp
+          </div>
+          <div
+            className="forecast-value"
+          >
+            15
+            °C
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Containers - Weather with placeWeather, without weatherDescriptions and forecast should render without crashing 1`] = `
+<div>
+  <div
+    className="container weather-container"
+  >
+    <div
+      className="weather-header"
+    >
+      <div
+        className="column-title"
+      >
+        City Test
+      </div>
+      <div
+        className="temperature-span"
+      >
+        °C
+      </div>
+    </div>
+    <div
+      className="weather-forecast columns is-multiline is-centered"
+    />
+  </div>
+</div>
+`;
+
+exports[`Containers - Weather without placeWeather should render without crashing 1`] = `<div />`;

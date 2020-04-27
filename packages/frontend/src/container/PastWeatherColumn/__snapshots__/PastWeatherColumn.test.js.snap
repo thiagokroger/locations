@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Containers - Past Weather Column with all props should render without crashing 1`] = `
+<div
+  className="column is-one-quarter"
+>
+  <span
+    className="column-title"
+  >
+    Last searched places
+  </span>
+  <WeatherCard
+    city=""
+    clime={Array []}
+    key="0"
+    observationTime=""
+    removeSearchValue={[MockFunction]}
+    temperature={0}
+  />
+</div>
+`;
+
+exports[`Containers - Past Weather Column without not required props should render without crashing 1`] = `
+<div
+  className="column is-one-quarter"
+>
+  <span
+    className="column-title"
+  >
+    Last searched places
+  </span>
+</div>
+`;
