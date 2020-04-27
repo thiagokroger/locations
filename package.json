@@ -1,0 +1,26 @@
+{
+  "name": "locations",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "lerna exec npm install",
+    "lint": "lerna exec npm run lint:fix",
+    "test": "lerna exec npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagokroger/locations.git"
+  },
+  "author": "Thiago Kroger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagokroger/locations/issues"
+  },
+  "homepage": "https://github.com/thiagokroger/locations#readme",
+  "dependencies": {
+    "lerna": "^3.20.2"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
+  }
+}
